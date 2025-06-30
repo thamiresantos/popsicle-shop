@@ -1,2 +1,3 @@
-# popsicle-shop
+## Loja de Picolés 🍦
 
+> ⚙️ Em desenvolvimento....
