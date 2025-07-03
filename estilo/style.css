@@ -5,6 +5,8 @@
 
 body {
     background-color: #ffecec;
+    width: 100vw;
+    height: 100vh;
 }
 
 /* cabeçalho */
@@ -41,8 +43,13 @@ header {
 }
 
 /* sessão principal*/
+main{
+    flex: 1;
+    height: 74%;
+}
 .hero {
     margin: 50px;
+    margin-bottom: 0;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -134,3 +141,47 @@ h1 {
     transform: rotate(360deg);;
 }
 
+/* sessão sabores*/
+.sabores {
+    width: 680px;
+    display: flex;
+    flex-direction: row;
+    padding: 2px 20px;
+}
+
+.opcao-sabores {
+    margin: 20px;
+}
+.img-sabores:hover {
+   
+}
+
+.img-sabores {
+    width: 110px;
+    display: flex;
+    margin: 0 10px;
+}
+
+.txt-sabor {
+    font-family: poppins, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+}
+
+/*rodape*/
+.rodape {
+    color: #5c5c5c;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-ropade{
+    color: #5c5c5c;
+    text-decoration: none;
+}
+.link-ropade:hover {
+    color: #d65a7a;
+}
