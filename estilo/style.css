@@ -42,7 +42,7 @@ header {
     color: #d65a7a;
 }
 
-/* sessão principal*/
+/* sessão hero*/
 main{
     flex: 1;
     height: 74%;
@@ -93,7 +93,7 @@ h1 {
 .circulo-grande {
     width: 600px;
     height: 600px;
-    background-color: rgba(251, 251, 251, 0.667);
+   background-color: rgba(251, 251, 251, 0.667);
     border-radius: 50%;
     position:fixed;
     top: 45%;
@@ -107,6 +107,7 @@ h1 {
     height: 400px;
     background-color: #ffb6c1b1;
     border-radius: 50%;
+    box-shadow: -5px 5px 15px -9px rgba(0, 0, 0, 0.321);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -150,10 +151,16 @@ h1 {
 }
 
 .opcao-sabores {
+    cursor:pointer;
     margin: 20px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+
 }
-.img-sabores:hover {
-   
+
+.opcao-sabores:active{
+    border-color: #948c8ea6;
+    transform: scale(1.05);
 }
 
 .img-sabores {
