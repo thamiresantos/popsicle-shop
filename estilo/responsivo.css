@@ -1,0 +1,47 @@
+/* RESPONSIVO MOBILE*/
+body{
+    height: 100%;
+    width: 100vw;
+}
+
+.itens-nav {
+   display: none;
+}
+
+.hero{
+    margin: 8px;
+    padding: 4px;
+}
+
+h1{
+    font-size: 28px;
+    margin:8px;
+    width: 100%;
+}
+
+.subtitulo{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.texto {
+    width: 100%;
+    padding: 5px;
+}
+
+.circulo {
+    width: 90px;
+    height: 90px;
+    top:8%
+}
+
+.sorvete-principal, .circulo-pequeno, .container-sorvete, .circulo-grande  {
+   display: none;
+}
+
+.sabores {
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
